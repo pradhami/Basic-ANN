@@ -8,6 +8,6 @@ LOSS_FUNCTION = "sparse_categorical_crossentropy"
 OPTIMIZER = "SGD"
 METRICS = ["accuracy"]
 TRAINED_MODEL_DIR = os.path.join("models", "ANN.h5")
-LOGGING_DIR = os.path.join("VGGmodel", "checkpoints")
+LOGGING_DIR = os.path.join("logs","running_logs.log")
 PLOT_DIR = os.path.join('plots', 'performance.png')
 VERBOSE = 0

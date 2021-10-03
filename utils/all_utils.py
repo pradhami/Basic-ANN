@@ -5,7 +5,7 @@ from utils import config
 
 def save_model(model):
   model_dir = 'models'
-  os.makedirs(model_dir, exist_ok=True)
+  os.makedirs(model_dir, exist_ok=True) # ONLY CREATE IF MODEL_DIR DOESN"T EXISTS
   model.save(config.TRAINED_MODEL_DIR)
 
 def performance_plot(history):
